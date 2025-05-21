@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container{
+    background-color: pink;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+.title1 header{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 150px;
+}
+
+header{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar,ul,li,a{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar,ul,li,a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 80px;
+    margin-right: 5px;
+    color: black;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    text-align: start;
+    margin: 5px;
+    font-size: 20px;
+    font-family:"Poppins", sans-serif ;
+}
+
+.foodtitle{
+         margin-top: 80px;
+         margin-left: 50px;
+         font-size: 20px;
+         font-family:"Poppins", sans-serif ;
+         
+}
+
+.Foods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+   
+}
+
+.Foods .box{
+    height: 190px;
+    width: 250px;
+    margin: 5PX;
+    box-sizing: border-box;
+    border: 2px;
+    border-style: solid;
+    border-radius: 1800px;
+    border-color: darkseagreen;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 65px;
+    border-radius: 70px;
+    position: relative;
+    bottom: 81px;
+    
+   
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h3{
+    position: relative;
+    top: 10px;
+    left: 45px;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+h4{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-style: italic;
+
+}
+
+.Foods2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 80px; 
+    justify-content: space-around;
+
+}
+
+.box1 img{
+      margin: 90px;
+      height: 150px;
+      width: 150px;
+    
+}
+
+
+.snaktitle{
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    color: chocolate;
+}
+
+.box1 h5{
+        text-align: center;
+        font-family:"Poppins", sans-serif ;
+        font-size: 18px;
+        font-weight: bolder;
+        position: relative;
+        bottom: 130px;
+}
+
+.maintital h1{
+    text-align: center;
+    color:chocolate;
+    font-family:"Poppins", sans-serif ;
+    
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.container3 .box3{
+       margin: 10px; 
+       box-sizing: border-box;
+       border: 3px;
+       border-color: peru;
+       border-style: solid;
+       height: 150px;
+       margin-bottom: 20px;
+       border-radius: 20px;
+}      
+
+.container3 img{
+            margin-top: 100px;
+            padding: 20px;
+}
+
+.foodname1{
+    position: relative;
+    bottom: 230px;
+    right: 20px;
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+    
+}
+
+.foodrate{
+    position: relative;
+    bottom: 230px;
+    right: 5px;
+    font-family:"Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: darkseagreen;
+}
+
+
+.ricetital{
+    text-align: center;
+    color: chocolate;
+    font-family:"Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 80px;
+    row-gap: 15px;
+    margin-right: 100px;
+}
+
+.container4 .box4{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ricename{
+      font-family:"Poppins", sans-serif;
+       position: relative;
+       bottom: 80px;
+       left: 80px;
+       font-style: italic;
+       font-weight: bolder;
+}
+
+.ricerate{
+       font-family:"Poppins", sans-serif;
+       position: relative;
+       bottom: 80px;
+       left: 100px;
+       font-style: italic;
+       font-weight: bolder;
+       color: rebeccapurple;
+}
+
+.breadstital{
+    text-align: center;
+    color: chocolate;
+    font-family:"Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 80px;
+    row-gap: 15px;
+    margin-right: 100px;
+}
+
+.container5 .box5{
+       margin-left: 50px;
+       margin-right: 50px;
+}
+
+.breadsname{
+    font-family:"Poppins", sans-serif;
+     position: relative;
+     bottom: 80px;
+     left: 90px;
+     font-style: italic;
+     font-weight: bolder;
+}
+
+.breadsrate{
+    font-family:"Poppins", sans-serif;
+    position: relative;
+    bottom: 80px;
+    left: 105px;
+    font-style: italic;
+    font-weight: bolder;
+    color: coral;
+}
+
+
+.dessertstital{
+    text-align: center;
+    color: chocolate;
+    font-family:"Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    gap: 80px;
+    row-gap: 15px;
+    margin-right: 100px;
+}
+
+.container6 .box6{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.dessertname{
+    font-family:"Poppins", sans-serif;
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.dessertrate{
+    font-family:"Poppins", sans-serif;
+    position: relative;
+    bottom: 80px;
+    left: 105px;
+    font-style: italic;
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+
+
+.About{
+    text-align: center;
+    font-family:"Poppins", sans-serif;
+
+}
+.abouttitale{
+   
+}
+
+.aboutour{
+    
+}
+
+.Contact{
+    text-align: center;
+    background-color: #f5f5dc;
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-family:"Poppins", sans-serif;
+}
+
+.contacttitale{
+
+}
+
+.locationtitale{
+
+}
+
+.phonetitale{
+
+}
+
+.teampara{
+
+}
+
